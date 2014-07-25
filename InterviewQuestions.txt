@@ -1,0 +1,34 @@
+General
+1.	What kind of development work do you prefer?  Database, business logic, UI?
+
+.NET
+1.	If you have a solution in Visual Studio with two projects – Core and UI – and UI needs to reference Core, how would you add the reference? What are the two ways that the reference can be set up, and why would you use one over the other?
+2.	What is LINQ? What are the two syntaxes for using it?
+3.	What is the MVC pattern? 
+A.	How is it implemented in ASP.NET? What are some of the classes, interfaces, or namespaces involved?
+B.	What is the RenderBody method, and where is it used? 
+
+Web/UI
+1.	Do you have any experience with Twitter Bootstrap? Can you explain what it is?
+2.	What is CSS? What are some of the things you do with it?
+
+General OO
+1.	Do you have any experience with Dependency Injection? 
+A.	What containers have you used?
+B.	Have you used any complex/non-standard binding?
+2.	Do you have any experience with ORM’s? 
+A.	Do you like them? Why?
+3.	When designing the classes for a system, do you tend to favor composition or inheritance? Why?
+
+JS
+1.	What JavaScript frameworks/libraries have you used?
+A.	If jQuery, what pieces/plugins have you used?
+2.	What is AJAX? If you’ve used it, how?
+3.	What is JSON?
+
+DB
+1.	What SQL databases have you used in the past? Do you prefer one over another?
+a.	Do you have any experience writing PL/SQL? Oracle packages? If not, any experience writing stored procedures in MS SQL?
+2.	What are some of the differences (pro’s and con’s) between cursors and set-based statements? Why might you need to use a cursor?
+3.	Do you have any experience with SSIS? 
+a.	What are the ways that an SSIS package can be saved?

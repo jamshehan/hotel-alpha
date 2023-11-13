@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>hotelalpha.org - Embed Demo</title>
+    <meta name="ROBOTS" content="NOINDEX, FOLLOW">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" id="bootswatch" href="css/bootswatch/slate/bootstrap.min.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/embedDemo.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 class="page-heading"><a href="/">Hotel Alpha</a> - Embed Demo</h1>
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h1 class="panel-title">Embedding hotelalpha.org widgets</h1>
+                    </div>
+                    <div class="panel-body container">
+                        <div class="row">
+                            <div class="col-xs-11">
+                                <p>
+                                    Embedding one of the widgets from hotelalpha on your own site is as easy as adding a single line of HTML.
+                                    The embedded widget can be styled with any one of the 16 <a href="http://bootswatch.com/" target="_blank">Bootswatch.com</a>
+                                    stylesheets. Use the dropdown below to switch among the different styles, then copy the source for the desired widget to paste on your site.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <form class="form-horizontal" role="form">
+                                    <div class="form-group">
+                                        <label for="theme" class="col-xs-2 col-md-1 control-label">Theme</label>
+                                        <div class="col-xs-8 col-md-4 col-lg-2">
+                                            <select id="theme" class="form-control">
+                                                <option value="cerulean">Cerulean</option>
+                                                <option value="cosmo" data-height="175">Cosmo</option>
+                                                <option value="cyborg" data-width="430" data-height="175">Cyborg</option>
+                                                <option value="darkly" data-height="175">Darkly</option>
+                                                <option value="flatly" data-height="175">Flatly</option>
+                                                <option value="journal" data-height="175">Journal</option>
+                                                <option value="lumen">Lumen</option>
+                                                <option value="paper" data-width="430" data-height="200">Paper</option>
+                                                <option value="readable" data-width="390" data-height="175">Readable</option>
+                                                <option value="sandstone">Sandstone</option>
+                                                <option value="simplex" data-width="310" data-height="155">Simplex</option>
+                                                <option value="slate" selected="selected">Slate</option>
+                                                <option value="spacelab">Spacelab</option>
+                                                <option value="superhero" data-height="175">Superhero</option>
+                                                <option value="united">United</option>
+                                                <option value="yeti" data-height="175">Yeti</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12" id="widgets">
+                <iframe src="http://www.hotelalpha.org?widget=usFrom73&amp;theme=slate" width="365" height="160" scrolling='no' frameborder='0'></iframe>
+                <iframe src="http://www.hotelalpha.org?widget=usThisYear&amp;theme=slate" width="365" height="160" scrolling='no' frameborder='0'></iframe>
+                <iframe src="http://www.hotelalpha.org?widget=worldThisYear&amp;theme=slate" width="365" height="160" scrolling='no' frameborder='0'></iframe>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h1 class="panel-title">
+                            HTML Source
+                        </h1>
+                    </div>
+                    <div class="panel-body">
+                        <pre id="source">
+                        </pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

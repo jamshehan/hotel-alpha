@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>hotelalpha.org - Link Demo</title>
+    <meta name="ROBOTS" content="NOINDEX, FOLLOW">
+
+    <!-- Bootstrap and related js files are not required, but are used for styling here -->
+    <link rel="stylesheet" id="bootswatch" href="css/bootswatch/slate/bootstrap.min.css" data-template="css/bootswatch/{{theme}}/bootstrap.min.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- The hotelalpha.css file is required to achieve the odometer-style counters -->
+    <link rel="stylesheet" href="http://www.hotelalpha.org/css/hotelalpha.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <h1 class="page-heading"><a href="/">Hotel Alpha</a> - Link Demo</h1>
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h1 class="panel-title">Linking hotelalpha.org widgets</h1>
+                    </div>
+                    <div class="panel-body">
+                        <ol>
+                            <li>
+                                Add the hotelalpha.js file to your site, like:
+                                <div class="code"><code>&lt;script src="http://www.hotelalpha.org/js/hotelalpha.js"&gt;&lt;/script&gt;</code></div>
+                            </li>
+                            <li>
+                                Add the hotelalpha.css file to your site; this adds the rolling animation as the numbers change:
+                                <div class="code">
+                                    <code>
+                                        &lt;link rel="stylesheet" href="http://www.hotelalpha.org/css/hotelalpha.css" /&gt;
+                                    </code>
+                                </div>
+                            </li>
+                            <li>
+                                Add one of the hotelalpha classes to any element, and it becomes a real-time counter: <br />
+                                <div class="code"><code>&lt;span class="hotelalpha-worldThisYear"&gt;0&lt;/span&gt;</code></div>
+                                The recognized classes are:
+                                <ul>
+                                    <li>hotelalpha-usFrom73 - US abortions since 1973</li>
+                                    <li>hotelalpha-usThisYear - US abortions year-to-date</li>
+                                    <li>hotelalpha-worldThisYear - Worldwide abortions year-to-date</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-9">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h1 class="panel-title"><span class="hotelalpha-usFrom73">0</span> abortions have occurred in the US since 1973.</h1>
+                    </div>
+                    <div class="panel-body">
+                        <code>&lt;span class="hotelalpha-usFrom73"&gt;0&lt;/span&gt; abortions have occurred in the US since 1973.</code>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-9">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h1 class="panel-title"><span class="hotelalpha-usThisYear">0</span> abortions have occurred in the US this year.</h1>
+                    </div>
+                    <div class="panel-body">
+                        <code>&lt;span class="hotelalpha-usThisYear"&gt;0&lt;/span&gt; abortions have occurred in the US this year.</code>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-9">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h1 class="panel-title"><span class="hotelalpha-worldThisYear">0</span> abortions have occurred throughout the world this year.</h1>
+                    </div>
+                    <div class="panel-body">
+                        <code>&lt;span class="hotelalpha-worldThisYear"&gt;0&lt;/span&gt; abortions have occurred throughout the world this year.</code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="http://www.hotelalpha.org/js/hotelalpha.js"></script>
+</body>
+</html>
